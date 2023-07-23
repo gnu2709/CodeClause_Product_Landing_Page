@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+
+/* Reset some default styles */
+
+body, h1, h2, h3, ul, li, p, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+   
+  }
+  
+  /* Set a default background color and text color */
+  body {
+    background-color: #ffffff;
+    /* background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%); */
+    
+ 
+  }
+  
+  /* Style the header */
+  header {
+    /* background-color: #3e5075; */
+    
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the hero section */
+  #hero {
+     background-image: url(gnu.jpg);
+     opacity: 0.9;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  #hero h1 {
+    margin-top: 180px;
+    font-size: 36px;
+    color: #000000;
+    /* text-align: center; */
+    margin-bottom: 50px;
+    
+    text-decoration: underline;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+  /* Style the features section */
+  #features {
+    padding: 50px 0;
+  }
+  
+  #features h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .feature {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .feature img {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .feature h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 20px;
+    color: #777;
+  }
+  
+  /* Style the pricing section */
+  #pricing {
+ 
+    padding: 10px 0;
+  }
+ 
+  #pricing h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #pricing h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+ 
+  .price {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .price h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .price p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .price ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  
+  .price ul li {
+    margin-bottom: 5px;
+    font-size: 19px;
+  }
+  
+/* Contact Form */
+
+#contact {
+    
+    /* background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%); */
+    color: rgb(0, 0, 0);
+    padding-bottom: 40px;
+  }
+  
+  #contact h1,
+  #contact h1 span {
+    color: rgb(0, 0, 0);
+  }
+  
+  #contact-form {
+    margin-left: 20%;
+  }
+  
+  #contact-container {
+    display: flex;
+  }
+  
+  #my-details-container {
+    width: 35%;
+    margin-left: 6%;
+  }
+  
+  #my-details-container h3 {
+    color: rgb(0, 0, 0);
+    font-weight: 550;
+    font-size: 1.2rem;
+  }
+  
+  #contact-form-container {
+    width: 50%;
+  }
+  
+  #my-details-container p {
+    color: #000000;
+    font-size: 0.9rem;
+  }
+  
+  .my-details-info-container {
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 1rem;
+  }
+  
+  .my-details-info-container span {
+    margin-left: 0.4rem;
+  }
+  
+  .my-details-info-container i {
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  
+  #contact-form input,
+  textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: #000000;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+  }
+  
+  #contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+  }
+  
+  #contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+  }
+  
+ 
+  
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+  
+  /* Style the footer */
+  footer {
+   
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+  }
+  
